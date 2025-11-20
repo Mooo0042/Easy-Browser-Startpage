@@ -54,14 +54,12 @@ https://netflix.com | Netflix | Streaming service
 - One link per line
 - Use the pipe character `|` to separate fields
 - URLs must include `https://` or `http://`
-- Favicons are automatically fetched and cached
+- Favicons are automatically fetched
 - The instructions box will automatically hide once you have valid links
 
 ## Usage Tips
 
 - **Quick Search**: Just start typing anywhere on the page to search Google
-- **Favicons**: Icons are cached for 7 days for faster loading
-- **Offline Mode**: The page works offline with cached favicons
 - **Updating Links**: Edit `links.txt` and refresh the page
 
 ## File Structure
@@ -109,7 +107,6 @@ Create a systemd service or add the Python command to your `.bashrc` / startup a
 
 **Favicons not showing?**
 - Some sites block favicon requests - a fallback globe icon (🌐) will appear
-- Clear your browser's localStorage if favicons seem outdated
 
 **Search not working?**
 - Make sure you have an internet connection
