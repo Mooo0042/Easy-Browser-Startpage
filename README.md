@@ -8,7 +8,6 @@ A beautiful, customizable dark mode start page for your web browser with Google 
 - 🔍 **Google Search Bar** - Search directly from your start page
 - 🌙 **Dark Mode** - Easy on the eyes with a sleek dark theme
 - ⚡ **Auto-Focus Search** - Just start typing to search
-- 🖼️ **Favicon Caching** - Loads faster with cached site icons (7-day cache)
 - 📶 **Offline Detection** - Warning indicator when internet is down
 - 🎨 **Modern Design** - Glassmorphism effects and smooth animations
 - ⚙️ **Easy Configuration** - Simple text file for managing links
