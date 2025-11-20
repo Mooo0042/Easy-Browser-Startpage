@@ -293,14 +293,17 @@
                             const title = parts[1];
                             const description = parts[2] || '';
                             
+                            const faviconUrl = getFaviconUrl(url);
+                            
                             const card = document.createElement('a');
                             card.className = 'link-card';
                             card.href = url;
+                            card.target = '_blank';
+                            card.rel = 'noopener noreferrer';
                             
-                            // Create card with loading favicon
                             card.innerHTML = `
                                 <div class="favicon">
-                                    <img src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Ctext y=%2218%22 font-size=%2218%22%3E⏳%3C/text%3E%3C/svg%3E" alt="${title}">
+                                    <img src="${faviconUrl}" alt="${title}" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Ctext y=%2218%22 font-size=%2218%22%3E🌐%3C/text%3E%3C/svg%3E'">
                                 </div>
                                 <div class="link-content">
                                     <div class="link-title">${title}</div>
@@ -309,12 +312,6 @@
                             `;
                             
                             container.appendChild(card);
-                            
-                            // Load favicon asynchronously
-                            loadFavicon(url).then(faviconData => {
-                                const img = card.querySelector('.favicon img');
-                                img.src = faviconData;
-                            });
                         }
                     });
                 }
