@@ -2,6 +2,7 @@
 
 A beautiful, customizable dark mode start page for your web browser with Google search and quick links to your favorite websites.
 
+![Example Image of the Page](grafik.png "How it could Look")
 ## Features
 
 - 🔍 **Google Search Bar** - Search directly from your start page
