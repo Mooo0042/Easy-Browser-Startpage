@@ -2,7 +2,7 @@
 
 A beautiful, customizable dark mode start page for your web browser with Google search and quick links to your favorite websites.
 
-![Example Image of the Page](grafik.png "How it could Look")
+[![Example Image of the Page](grafik.png "How it could Look")](https://mooo0042.github.io/startpage/)
 ## Features
 
 - 🔍 **Google Search Bar** - Search directly from your start page
@@ -11,6 +11,7 @@ A beautiful, customizable dark mode start page for your web browser with Google 
 - 📶 **Offline Detection** - Warning indicator when internet is down
 - 🎨 **Modern Design** - Glassmorphism effects and smooth animations
 - ⚙️ **Easy Configuration** - Simple text file for managing links
+- 📱 **Works on Mobile** - Works on Mobile and Desktop
 
 ## Installation
 
